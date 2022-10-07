@@ -74,6 +74,7 @@ cp index.html catalog.html                  # копирование файла 
 cp index.html old/                          # копирование файла index.html в папку old/ (все произойдет в текущей папке)
 cp temp/ temp2/ -r                          # дублирование каталога
 scp -r \scr\to\file user@host:/dst/to/file/ # копирование всех файлов директории windows на linux сервер с ssh
+scp \scr\to\file user@host:/dst/to/file/    # копирование файла с windows на linux сервер с ssh
 ```
 
 ### Переименование или перемещение файлов
